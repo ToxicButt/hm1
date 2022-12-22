@@ -1,0 +1,5 @@
+first = int(input("Вводи число: "))
+next2 = int(input("Вводи число: "))
+next3 = int(input("Вводи число: "))
+print("Положительных:", (first > 0) + (next2 > 0) + (next3 > 0))
+print("Отрицательных:",(first < 0) + (next2 < 0) + (next3 < 0))
